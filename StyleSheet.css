@@ -19,6 +19,7 @@ aside{
     grid-area: AS;
     grid-row: span 6;
     background-color: cornflowerblue;
+   
 }
 img{
     background-color: cornflowerblue;
@@ -189,9 +190,11 @@ dt{
     /* justify-items: center; */
     /* align-items: center; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: space-between;
+    justify-items: center;
+    align-items: center;
     
    
 }
