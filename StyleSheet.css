@@ -2,13 +2,14 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: .25fr .25fr.5fr 1fr .1fr;
+    grid-template-rows: .25fr .25fr 1fr .5fr .25fr .1fr;
     grid-template-areas: 
 
     "I TP"
     "AS E"
     "S ED"
     "S PR"
+    "S L"
     "F F"
     ;
     ;
@@ -82,10 +83,38 @@ dt{
 
 
 
+.contact
+{
+    opacity: .75;
+}
+.contact:hover{
+    opacity: 1;
+}
 
 
 
 /* ids */
+
+
+#programs{
+    border-top: solid black 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "P1 P2 P3"
+    ;
+}
+#Pro1{
+    grid-area: P1;
+}
+#Pro2{
+    grid-area: P2;
+}
+#Pro3{
+    grid-area: P3;
+}
+
 #C{
     background-color: black;
     border-radius: 13px;
@@ -218,6 +247,7 @@ dt{
 #Git
 {
     grid-area: GI;
+    border-radius: 50em;
 }
 
 
