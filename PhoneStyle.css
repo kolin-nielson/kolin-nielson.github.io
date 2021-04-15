@@ -24,6 +24,30 @@ aside {
 
   
 }
+nav ul{
+  
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 wrap;
+  align-items: center;
+  justify-content: center;
+align-content: space-between;
+justify-content: space-evenly;
+
+}
+nav ul li {
+  list-style-type: none;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+
+}
+nav ul li a:hover{
+  color: red;
+}
 
 li {
   list-style-type: circle;
